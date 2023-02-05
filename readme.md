@@ -1,4 +1,4 @@
-# Welcome
+## - Welcome
 
 App ini adalah versi upgrade dari projek [Flutter Bluetooth sebelumnya](https://github.com/idekorslet/Belajar-Flutter/tree/main/Flutter_Bluetooth_ESP32),
 yang mana source code asalnya diambil dari [sini](https://blog.codemagic.io/creating-iot-based-flutter-app/)
@@ -14,10 +14,16 @@ You can check my version on the Playstore link below.<br>
 
 |  |  |
 |--|--|
-| <a href='https://play.google.com/store/apps/details?id=com.noobpro.bluetooth_dev_control&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Temukan di Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/id_badge_web_generic.png' width="200" height="80"/></a> | <a href='https://play.google.com/store/apps/details?id=com.noobpro.bluetooth_dev_control&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/en_badge_web_generic.png' width="240" height="100"/></a> |
+| <a href='https://play.google.com/store/apps/details?id=com.noobpro.bluetooth_dev_control&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Temukan di Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/id_badge_web_generic.png' width="200"/></a> | <a href='https://play.google.com/store/apps/details?id=com.noobpro.bluetooth_dev_control&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/en_badge_web_generic.png' width="240"/></a> |
+
+## - State Management
+State management yang saya gunakan adalah [GetX](https://pub.dev/packages/get), tetapi dengan struktur yang seadanya.
 
 
-## License
+The state management that I use is [GetX](https://pub.dev/packages/get), but with a sober structure.
+
+
+## - License
 Copyright (c) 2023 Aulia F
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -25,3 +31,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## - Support
+|  |  |  |
+|--|--|--|
+| <a href="https://saweria.co/idekorslet"><img alt="saweria" width="240" src="https://user-images.githubusercontent.com/80518183/216806553-4a11d0ef-6257-461b-a3f2-430910574269.svg"></a> | | <a href="https://buymeacoffee.com/idekorslet"><img alt='Buy me a coffee' width="240" src="https://user-images.githubusercontent.com/80518183/216806363-a11d0282-517a-4512-9733-567e0d547078.png"> </a> |
