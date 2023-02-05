@@ -1,11 +1,9 @@
 # Welcome
 
-App ini adalah versi upgrade dari projek Flutter Bluetooth sebelumnya: 
-https://github.com/idekorslet/Belajar-Flutter/tree/main/Flutter_Bluetooth_ESP32,
+App ini adalah versi upgrade dari projek [Flutter Bluetooth sebelumnya](https://github.com/idekorslet/Belajar-Flutter/tree/main/Flutter_Bluetooth_ESP32),
 yang mana source code asalnya diambil dari [sini](https://blog.codemagic.io/creating-iot-based-flutter-app/)
 
-This App is an upgraded version of the previous Flutter Bluetooth project:
-https://github.com/idekorslet/Belajar-Flutter/tree/main/Flutter_Bluetooth_ESP32,
+This App is an upgraded version of the previous [Flutter Bluetooth project](https://github.com/idekorslet/Belajar-Flutter/tree/main/Flutter_Bluetooth_ESP32),
 which the original source code is taken from [here](https://blog.codemagic.io/creating-iot-based-flutter-app/)
 ##
 App yang ada disini adalah versi standard, berbeda dengan versi yang saya upload di Playstore, jadi kalian bisa mengubah tampilan sesuai dengan yang kalian kehendaki.
