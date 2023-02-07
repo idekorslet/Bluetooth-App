@@ -17,7 +17,7 @@ You can check my version on the Playstore link below.<br>
 | <a href='https://play.google.com/store/apps/details?id=com.noobpro.bluetooth_dev_control&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/en_badge_web_generic.png' width="240"/></a> |
 
 ## - State Manager
-State managemer yang saya gunakan adalah [GetX](https://pub.dev/packages/get), tetapi dengan struktur yang seadanya.
+State manager yang saya gunakan adalah [GetX](https://pub.dev/packages/get), tetapi dengan struktur yang seadanya.
 
 
 The state manager that I use is [GetX](https://pub.dev/packages/get), but with a sober structure.
