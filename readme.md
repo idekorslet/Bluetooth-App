@@ -22,6 +22,10 @@ State manager yang saya gunakan adalah [GetX](https://pub.dev/packages/get), tet
 
 The state manager that I use is [GetX](https://pub.dev/packages/get), but with a sober structure.
 
+## - Notes
+Total command setiap device di aplikasi ini adalah 4, tetapi yang digunakan cuma 2. Jika ingin mengganti nilai max command ditiap device, silahkan buka file constant.dart dan ganti nilai variabel <b>maxCommandCount</b>
+
+The total command for each device in this application is 4, but only 2 are used. If you want to change the max command value for each device, please open the constant.dart file and change the value of the <b>maxCommandCount</b> variable
 
 ## - License
 Copyright (c) 2023 Aulia F
