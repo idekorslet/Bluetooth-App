@@ -247,6 +247,8 @@ class DeviceController extends GetxController {
       currentDevice?.commandList.removeAt(commandIndexToDelete);
       CommandController.commandMenuList.removeAt(commandIndexToDelete);
     }
+    
+    refreshNewCommandButtonState();
 
     return null;
   }
