@@ -28,7 +28,8 @@ class DataLogs extends StatelessWidget {
           ? buildChatLogViews()
           : buildStandardLogViews(),
 
-          Container(
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 700),
             margin: EdgeInsets.only(left: ctrl.currentLeftMargin.value),
             height: 36,
             width: Get.width,
@@ -42,27 +43,13 @@ class DataLogs extends StatelessWidget {
                   onTap: () {
                     showHistory = !showHistory;
                     if (showHistory) {
-                      while (ctrl.currentLeftMargin.value > 0) {
-                        ctrl.currentLeftMargin.value -= 10;
+                      if (ctrl.currentLeftMargin.value > 0) {
+                        ctrl.currentLeftMargin.value = 0;
                       }
                     } else {
-
-                      // while (ctrl.currentLeft.value < Get.width - 60) {
-                      //   ctrl.currentLeft.value = ctrl.currentLeft.value + 10;
-                      // }
-                       Timer? historyTime;
-                        try {
-                          historyTime = Timer.periodic(const Duration(milliseconds: 10), (timer) {
-                            if (ctrl.currentLeftMargin.value < Get.width - 60) {
-                              ctrl.currentLeftMargin.value += 10;
-                            } else {
-                              timer.cancel();
-                            }
-                          });
-                        }
-                        catch (e) {
-                          historyTime?.cancel();
-                        }
+                      if (ctrl.currentLeftMargin.value < Get.width - 44) {
+                        ctrl.currentLeftMargin.value = Get.width - 44;
+                      }
                     }
                   },
                   child: Container(
