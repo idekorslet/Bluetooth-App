@@ -30,6 +30,19 @@ Total command setiap device di aplikasi ini adalah 4, tetapi yang digunakan cuma
 
 The total command for each device in this application is 4, but only 2 are used. If you want to change the max command value for each device, please open the constant.dart file and change the value of the <b>maxCommandCount</b> variable
 
+## - Additional Notes
+untuk menonaktifkan permintaan akses lokasi ketika aplikasi pertama kali jalan, maka diperlukan edit file FlutterBluetoothSerialPlugin.java secara langsung,<br><br>
+
+To disable location access requests when the application is first run, it is necessary to edit the FlutterBluetoothSerialPlugin.java file directly.
+
+untuk lokasi file FlutterBluetoothSerialPlugin.java dikasus saya ada di:<br>
+for the location of the FlutterBluetoothSerialPlugin.java file in my case it is at:
+```dart
+Project Folder --> External Library --> Flutter Plugins --> flutter_bluetooth_serial-0.40/android.src.main.java.io.github.edufolly.flutterbluetoothserial
+```
+<br>
+source: https://github.com/edufolly/flutter_bluetooth_serial/pull/152/files
+
 ## - Support
 |  |  |  |
 |--|--|--|
