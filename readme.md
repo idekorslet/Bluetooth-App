@@ -43,6 +43,29 @@ Project Folder --> External Library --> Flutter Plugins --> flutter_bluetooth_se
 <br>
 source: https://github.com/edufolly/flutter_bluetooth_serial/pull/152/files
 
+## - Untuk Android Terbaru / For The Newest Android
+1. Ikuti langkah "Additional Notes" / Follow "Additional Notes" step
+2. Tambahkan file permission_request.dart ke projek / add permission_request.dart file into current project.<br>
+    link: https://github.com/idekorslet/Bluetooth-App/blob/main/newest_android/
+    
+3. - Edit method initBluetooth() dan method enableBluetooth() yang ada di file bluetooth_data.dart dan bandingkan dengan file bluetooth_data.dart yang baru (bisa dilihat di link dibawah) <br>
+   - Edit initBluetooth() & enableBluetooth() method which is in the bluetooth_data.dart and compare it with the newest bluetooth_data.dart file (check this link below):<br>
+   https://github.com/idekorslet/Bluetooth-App/blob/main/newest_android/
+
+4. Edit AndroidManifest.xml, lokasi ada di / Edit AndroidManifest.xml file, location path:
+```dart
+   Project Folder --> External Library --> Flutter Plugins --> flutter_bluetooth_serial-0.40/android.src/
+```
+  &nbsp;&nbsp;&nbsp;&nbsp;menjadi seperti ini / become like this:
+```xml
+  <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+```
+
 ## - Support
 |  |  |  |
 |--|--|--|
